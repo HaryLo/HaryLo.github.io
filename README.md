@@ -9,6 +9,7 @@ This is a lightweight static personal website for Hengyi Luo. It has no build st
 |-- index.html
 |-- 404.html
 |-- robots.txt
+|-- sitemap.xml
 |-- assets/
 |   |-- css/styles.css
 |   |-- img/
