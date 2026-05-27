@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Personal academic website of Hengyi Luo."
+    >
+    <meta name="theme-color" content="#f2efe8">
+    <meta property="og:title" content="Hengyi Luo">
+    <meta property="og:description" content="Personal academic website of Hengyi Luo.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/img/pushkin-life-deceives-you.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Hengyi Luo">
+    <meta name="twitter:description" content="Personal academic website of Hengyi Luo.">
+    <meta name="twitter:image" content="assets/img/pushkin-life-deceives-you.jpg">
+    <title>Hengyi Luo</title>
+    <link rel="preload" as="image" href="assets/img/pushkin-life-deceives-you.jpg">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" aria-label="Site navigation">
+      <nav class="nav-shell">
+        <a class="brand" href="#home" aria-label="Back to home">
+          <span class="brand-mark" aria-hidden="true">
+            <img src="assets/img/profile-mark.jpg" alt="">
+          </span>
+          <span data-profile="name">Hengyi Luo</span>
+        </a>
+        <div class="nav-links" aria-label="Page sections">
+          <a href="#education">Education</a>
+          <a href="#publications">Publications</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <div class="hero-copy">
+            <h1 id="hero-title" data-profile="name">Hengyi Luo</h1>
+            <p class="hero-email">
+              Email:
+              <a href="mailto:luohengyi@amss.ac.cn" data-profile="email">luohengyi@amss.ac.cn</a>
+            </p>
+            <p class="hero-summary" data-profile="summary">
+              Currently I'm a Ph.D. student in Applied Mathematics at the Academy of Mathematics and Systems Science, Chinese Academy of Sciences. My research interests mainly lie in lattice-based cryptography, especially the lattice isomorphism problem. I am also interested in other directions in lattice-based cryptography, including classical and quantum algorithms for lattices and signature design.
+            </p>
+          </div>
+          <figure class="hero-art">
+            <img
+              src="assets/img/pushkin-life-deceives-you.jpg"
+              alt="Handwritten Russian lines from Alexander Pushkin's poem If Life Deceives You"
+            >
+            <figcaption>From Alexander Pushkin's "If Life Deceives You."</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="education" aria-labelledby="education-title">
+        <div class="section-heading">
+          <p class="eyebrow">Education</p>
+          <h2 id="education-title">Education</h2>
+        </div>
+        <div class="education-list" id="education-list"></div>
+      </section>
+
+      <section class="section" id="publications" aria-labelledby="publications-title">
+        <div class="section-heading">
+          <p class="eyebrow">Publications</p>
+          <h2 id="publications-title">Publications</h2>
+        </div>
+        <div class="publication-list" id="publication-list"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        <span data-profile="name">Hengyi Luo</span>
+        <span aria-hidden="true"> - </span>
+        <span id="current-year">2026</span>
+      </p>
+    </footer>
+
+    <script src="assets/js/site-data.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
