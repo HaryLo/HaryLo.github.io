@@ -15,9 +15,6 @@ This is a lightweight static personal website for Hengyi Luo. It has no build st
 |   |-- img/
 |   |   |-- profile-mark.jpg
 |   |   `-- pushkin-life-deceives-you.jpg
-|   `-- js/
-|       |-- main.js
-|       `-- site-data.js
 |-- scripts/serve.mjs
 `-- package.json
 ```
@@ -32,8 +29,7 @@ Then open `http://127.0.0.1:4173/`.
 
 ## Editing Content
 
-- Main profile, education, and publications: `assets/js/site-data.js`
-- Layout and metadata: `index.html`
+- Main profile, education, publications, layout, and metadata: `index.html`
 - Visual style: `assets/css/styles.css`
 - Hero image: `assets/img/pushkin-life-deceives-you.jpg`
 - Handwritten profile mark: `assets/img/profile-mark.jpg`
